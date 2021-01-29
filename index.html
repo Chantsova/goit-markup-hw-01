@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
-    <link rel=normalize.css href="css/normalize.css">
+    <link rel="normalize.css" href="css/normalize.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="#" alt=Logo>
-            </a>
+            <a href="#">WebStudio</a>
             <ul>
                 <li>
-                    <a href="#" alt="#">Студия</a>
+                    <a href="#">Студия</a>
                 </li>
                 <li>
-                    <a href="#" alt="#">Портфолио</a>
+                    <a href="#">Портфолио</a>
                 </li>
                 <li>
-                    <a href="#" alt="#">Контакты</a>
+                    <a href="#">Контакты</a>
                 </li>
             </ul>
             <ul>
@@ -43,24 +42,27 @@
             <ul>
                 <li>
                     <div>
-                        <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-                        <pre>Идейные соображения, а также начало повседневной работы по форматированию позиции.</pre>
+                        <h3>Внимание к деталям</h3> <!--Копируется текст не прописными буквами, изменение регистра через css-->
+                        <pre>Идейные соображения, а также начало повседневной работы по формированию позиции.</pre>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h3>ПУНКТУАЛЬНОСТЬ</h3>
+                        <h3>Пунктуальность</h3>
                         <pre>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</pre>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <h3>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-                        <pre></pre>
+                        <h3>Планирование</h3>
+                        <pre>Равным образом консультация с широким активом в значительной степени обуславливает.</pre>
                     </div>
                 </li>
                 <li>
-
+                    <div>
+                        <h3>Современные технологии</h3>
+                        <pre>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</pre>
+                    </div>
                 </li>
             </ul>
             <h2>
@@ -68,40 +70,60 @@
             </h2>
             <ul>
                 <li>
-                    <img src="" alt="">
+                    <img src="images/person-type-on-the-keyboard.jpg" alt="person type on the keyboard" width="370" height="294">
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="images/person-works-with-smartphone-and-laptop.jpg" alt="person works with smartphone and laptop" width="370" height="294">
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="images/colour-palette-on-the-tablet.jpg" alt="colour palette on the tablet" width="370" height="294">
                 </li>
             </ul>
         </section>
         <section>
-            <h2>Наша команда</h2>
+            <h2>
+                Наша команда
+            </h2>
             <ul>
+                <!--Сделала через фигуру, но validator.w3 ругается-->
                 <li>
-                    <img src="#" alt="#">
-                    <h3></h3>
-                    <p>Product manager</p>
+                    <figure>
+                        <img src="images/igor-demianenko.jpg" alt="igor demianenko" width="270" height="260">
+                        <figcaption>Игорь Демьяненко</figcaption>
+                        <figcaption>Product Designer</figcaption>
+                    </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="#" alt="#">
-                        <figcaption></figcaption>
-                        <figcaption>Product manager</figcaption>
+                            <img src="images/olga-repina.jpg" alt="olga repina" width="270" height="260">
+                        <figcaption>Ольга Репина</figcaption>
+                        <figcaption>Frontend Developer</figcaption>
                     </figure>
-                </li>            
+                </li>
+                <li>
+                    <figure>
+                            <img src="images/nikolay-tarasov.jpg" alt="nikolay tarasov" width="270" height="260">
+                        <figcaption>Николай Тарасов</figcaption>
+                        <figcaption>Marketing</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/mikhail-yermakov.jpg" alt="mikhail yermakov" width="270" height="260">
+                        <figcaption>Михаил Ермаков</figcaption>
+                        <figcaption>UI Designer</figcaption>
+                    </figure>
+                </li>
             </ul>
         </section>
     </main>
     <footer>
-        <>
+        <h3>WebStudio</h3>
         <address>
-            <p>г.Киев</p>
-            <a href="mailto:"></a>
-            <a href="tel:"></a>
+            <!--Адрес как ссылка на карту-->
+            <a href="#">г. Киев, пр-т Леси Украинки, 26</a>
+            <a href="mailto:info@example.com">info@example.com</a>
+            <a href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
     </footer>
 </body>
